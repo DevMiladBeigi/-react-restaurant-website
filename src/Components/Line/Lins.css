@@ -1,0 +1,18 @@
+*{
+      margin: 0;
+      padding: 0;
+}
+
+.line{
+      display: flex;
+      width: 50;
+      height: 270px;
+      background-color:#f15d07;
+      margin-top: 65px;
+      margin-right:0 ;
+      margin-left: 25px;
+}
+.line h4{
+      color: #f15d07;
+      ;
+}
