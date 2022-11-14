@@ -19,9 +19,14 @@ const Description = () => {
         <div className="meal">
           <h3>Breakfast</h3>
           <h5>9:00 am - 11:00 am</h5>
+          <div className="food">
+          </div>
         </div>
       </div>
-      <div className="arrows"> </div>
+      {/* <div className="arrows">
+        <img src="./social-icons.svg" alt=""></img>
+        slm
+       </div> */}
     </div>
   );
 };

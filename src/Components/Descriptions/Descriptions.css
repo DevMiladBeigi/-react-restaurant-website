@@ -80,3 +80,13 @@
 .meal h5{
       color: #f15d07;
 }
+
+.food{
+      width: 100%;
+      height: 40px;
+      display: flex;
+      background-image: url('./icons8-right-arrow-50.png');
+      background-repeat: no-repeat;
+      background-position: right;
+      margin-top: 0;
+}
