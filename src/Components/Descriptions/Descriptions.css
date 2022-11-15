@@ -88,3 +88,10 @@
       background-position: right;
 }
 
+@media only screen and (max-width: 992px){
+      .description-container{
+            width: 100%;
+      }
+
+      
+}
