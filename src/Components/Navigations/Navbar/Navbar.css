@@ -86,7 +86,11 @@ header .nav-btn{
       nav a {
             font-size: 1.5rem;
             font-weight: bold;
-
+            transition: 2s;
+            transform: translateX(-100vh);
       }
 
+      header .responsive_nav a{
+            transform: none;
+      }
 }
