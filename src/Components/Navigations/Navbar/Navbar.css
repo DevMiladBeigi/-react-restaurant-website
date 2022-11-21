@@ -53,9 +53,20 @@ header .nav-btn{
 }
 
 @media only screen and (max-width:992px){
+      header h3{
+             margin-top: 20px;
+             margin-left: 250px;
+      }
+      header{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            width: 20%;
+      }
       header .nav-btn{
             visibility: visible;
             opacity: 1;
+            margin:10px 0 0 0;
       }
       header nav{
             position: fixed;
@@ -69,7 +80,7 @@ header .nav-btn{
             gap:1.5rem;
             flex-direction: column;
             transition: 1s;
-            transform: translateX(-100vh);
+            transform: translateX(-300vh);
             background-color: #f15d07;
 
       }
