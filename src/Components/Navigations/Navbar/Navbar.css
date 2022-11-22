@@ -82,11 +82,13 @@ header .nav-btn{
             transition: 1s;
             transform: translateX(-300vh);
             background-color: #f15d07;
+            
 
       }
       header .responsive_nav{
             transform: none;
             width: 50%;
+           
       }
       nav .nav-close-btn{
             position: absolute;
@@ -104,4 +106,5 @@ header .nav-btn{
       header .responsive_nav a{
             transform: none;
       }
+     
 }
